@@ -14,7 +14,7 @@
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    /* ----- width  ----- */
+  
     flex:362;
     height: 100%;
     position: fixed;
@@ -22,11 +22,11 @@
     border-right: 1px solid #EAECF0;
 }
 .mainContent{
-    /* ----- width  ----- */
+  
     flex:1078;
     height: 100%;
     margin-left:362px;;
-    /* background-color: blue; */
+    
 }
 .sidebarNav .NavContent{
     box-sizing: border-box;
@@ -53,8 +53,7 @@
     gap: 24px;
     width: 100%;
     height: 416px;
-    /* #####
-    background: yellow; */
+   
 }
 .sidebarNav .subNavBar{
     display: flex;
@@ -66,8 +65,7 @@
     background: white;
     height: 100%;
     width: 281;   
-    /* ##### */
-    /* background-color: purple; */
+    
 }
 
 .sidebarNav .NavContent .navs .header{
@@ -90,8 +88,7 @@
     gap: 24px;
     width: 100%;
     height: 200px;
-    /* ##### */
-    /* background-color: grey; */
+    
 }
 
 .sidebarNav .NavContent .navs .navigation{
@@ -189,22 +186,7 @@
     /* width: 213px; */
     height: 40px;
 }
-/* .sidebarNav .subNavBar .account .logoutSVG{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    gap: 8px;
 
-    position: absolute;
-    width: 36px;
-    height: 36px;
-    right: 12px;
-    top: -8px;
-
-    border-radius: 8px;
-} */
 .mainContent .pageHeader{
     display: flex;
     flex-direction: column;
@@ -251,13 +233,7 @@
     width: 100%;
     height: 100%;
 }
-/* .mainContent .pageHeader .container .subContainer .avtarPicWrap{
-    width: 160px;
-    height: 160px;
-} */
-/* .mainContent .pageHeader .container .subContainer .avtarPicWrap .avtarPicStyle{
-    position: absolute;
-} */
+
 .mainContent .pageHeader .container .subContainer .content{
     display: flex;
     flex-direction: column;
@@ -306,14 +282,7 @@
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     border-radius: 8px;
 }
-/* #shareButton{
-    background: #FFFFFF;
-    border: 1px solid #D0D5DD;
-}
-#profileButton{
-    background: #7F56D9;
-    border: 1px solid #7F56D9;
-} */
+
 .mainContent .sections .container{
     display: flex;
     flex-direction: column;
